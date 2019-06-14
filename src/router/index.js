@@ -33,10 +33,6 @@ export default new Router({
           path: 'live-record',
           component: UserLiveRecord
         },
-        // {
-        //   path: '/recharge',
-        //   component: UserRecharge
-        // },
         {
           path: 'withdrawal',
           component: UserWithdrawal
@@ -54,43 +50,3 @@ export default new Router({
   ]
 })
 
-// var devApp = new Vue({
-//   data:{},
-//   el:'#devApp',
-//   render:h => h(DevApp),
-//   router,
-//   store,
-//   mounted(){
-//     this.$router.push('/App/withdrawal')
-//   }
-// })
-
-
-// onst router = new VueRouter({
-//   routes: [{
-//    const router = new VueRouter({
-//   routes: [{
-//     path: '/live-record',
-//     component: UserLiveRecord
-//   }, {
-//     path: '/recharge',
-//     component: UserRecharge
-//   }, {
-//     path: '/withdrawal',
-//     component: UserWithdrawal
-//   }, {
-//     path: '/bank-info',
-//     component: UserBankInfo
-//   }]
-// })
-//   }, {
-//     path: '/recharge',
-//     component: UserRecharge
-//   }, {
-//     path: '/withdrawal',
-//     component: UserWithdrawal
-//   }, {
-//     path: '/bank-info',
-//     component: UserBankInfo
-//   }]
-// })

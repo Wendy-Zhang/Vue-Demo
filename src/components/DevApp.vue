@@ -15,8 +15,7 @@
 <script>
 import UserInfo from './UserInfo.vue'
 import UserMenu from './UserMenu.vue'
-// import index from '../router/index.js'
-// import UserLiveRecord from './UserLiveRecord'
+
 export default {
   name: "DevApp",
   data(){

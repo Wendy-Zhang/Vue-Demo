@@ -6,9 +6,9 @@
             </div>
             <div class="ml10 bold">Select the recharge type</div>
             <div class="recharge-type">
-                <a v-for="(item,index) in platformList" @click="selectPlatform(index)" :class="'plat-wrap' + (index % 4 == 0) ? 'plat-first':''" href="javascript:;">
-                    <div class="plat-focus" v-if="focusIdex == index"></div>
-                    <div :class="'plat '+item.className"></div>      
+                <a v-for="(item,index) in platformList" @click="selectPlatform(index)" :class="'plat-wrap' + (index % 4 == 0 ? ' plat-first':'')" href="javascript:;">
+                    <div class="plat-focus" v-if="focusIndex == index"></div>
+                    <div :class="'plat '+ item.className"></div>      
                 </a>
             </div>
 
