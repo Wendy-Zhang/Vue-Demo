@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # vue-demo
 
 > A Vue.js project
@@ -19,3 +20,7 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+=======
+# Vue-Demo
+使用Vue/Vuex/Vue-Router模仿开发的直播单页面
+>>>>>>> 421937c6ebe798b15275f9ccff93a05d046d5363
